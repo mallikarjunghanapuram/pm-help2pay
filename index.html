@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title></title>
+</head>
+
+<body>
+	<form method="post" name="SendForm" action="http://directpay.besthappylife.biz/MerchantTransfer">
+		<input type='hidden' name='MerchantCode' value='MYRACCT' />
+		<input type='hidden' name='CustomerID' value='Paymero' />
+		<input type='hidden' name='RefID' value='145311' />
+		<input type='hidden' name='Currency' value='MYR' />
+		<input type='hidden' name='BankCode' value='MBB' />
+		<input type='hidden' name='Amount' value='11.00' />
+		<input type='hidden' name='Remark' value='' />
+		<input type='hidden' name='TransactionDate' value='2019-12-31 10:44:26PM' />
+		<input type='hidden' name='ReturnURL' value='http://api.besthappylife.biz/BackResponse/a2aef434-2eb9-4bb7-b655-f01bd5176814/' />
+		<input type='hidden' name='FrontURL' value='http://api.besthappylife.biz/FrontResponse/a2aef434-2eb9-4bb7-b655-f01bd5176814/' />
+		<input type='hidden' name='Language' value='en-us' />
+		<input type='hidden' name='EncryptedSign' value='079C9D6F13E223CC1D01298AAFB48AD6' />
+		<input type='hidden' name='ClientIP' value='197.1.1.123' />
+		<input type='hidden' name='TransferType' value='' />
+		<input type='hidden' name='SpecificBankAccountUID' value='' />
+		<input type='hidden' name='LogoUrl' value='https://api.racethewind.net/images/logo_blank.png' />
+    </form>
+</body>
+
+</html>
+<script>
+	history.forward();
+</script>
+<script>
+	SendForm.submit();
+</script>
